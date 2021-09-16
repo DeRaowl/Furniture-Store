@@ -15,10 +15,11 @@ const AboutPage = () => {
             <div className="underline"></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi
-            perspiciatis praesentium nobis aspernatur. Quod, obcaecati placeat
-            odit et, doloribus dolorum reiciendis veritatis praesentium voluptas
-            asperiores, impedit expedita doloremque ipsa!
+            Our carefully curated collection of products are a combination of
+            leading design brands and emerging designers from across the globe.
+            We strive to bring you beautiful products for your home as well as
+            charming and unique lifestyle and kids ware products. Our products
+            are often eccentric, sometimes indulgent, and always inspirational.
           </p>
         </article>
       </Wrapper>
