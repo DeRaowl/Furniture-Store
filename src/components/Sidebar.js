@@ -34,11 +34,10 @@ const Sidebar = () => {
             );
           })}
           <li>
-            <a href="/" onClick={closeSidebar}>
-              Checkout
-            </a>
+            <Link to="/checkout" onClick={closeSidebar}>
+              checkout
+            </Link>
           </li>
-          ;
         </ul>
         <CartButtons />
       </aside>
