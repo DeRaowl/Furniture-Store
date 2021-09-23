@@ -12,10 +12,13 @@ import {
 const filter_reducer = (state, action) => {
   switch (action.type) {
     case LOAD_PRODUCTS:
+      let maxPrice = action.payload.map((p) => p.price);
+      maxPrice = Math.max(...maxPrice);
       return {
         ...state,
         all_products: [...action.payload],
         filtered_products: [...action.payload],
+        filters: { ...state.filters, max_price: maxPrice, price: maxPrice },
       };
       break;
     case SET_GRIDVIEW:
@@ -65,6 +68,14 @@ const filter_reducer = (state, action) => {
         });
       }
       return { ...state, filtered_products: tempProducts };
+      break;
+
+    case UPDATE_FILTERS:
+      const { name, value } = action.payload;
+      return { ...state, filters: { ...state.filters, [name]: value } };
+      break;
+    case FILTER_PRODUCTS:
+      return { ...state };
       break;
   }
 
