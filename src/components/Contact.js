@@ -11,13 +11,20 @@ const Contact = () => {
             Hurry, limited period offer. Get your favorite piece before stock
             runs out.
           </p>
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            action="https://formspree.io/f/meqvdjwo"
+            method="POST"
+          >
             <input
               type="email"
               className="form-input"
               placeholder="enter email"
+              name="_replyto"
             />
-            <button className="submit-btn">Subscribe</button>
+            <button className="submit-btn" type="submit">
+              Subscribe
+            </button>
           </form>
         </div>
       </div>
