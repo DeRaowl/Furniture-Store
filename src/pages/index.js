@@ -6,6 +6,7 @@ import Products from "./ProductsPage";
 import SingleProducts from "./SingleProductPage";
 import PrivateRoute from "./PrivateRoute";
 import Error from "./ErrorPage";
+import AuthWrapper from "./AuthWrapper";
 
 export {
   Home,
@@ -16,4 +17,5 @@ export {
   SingleProducts,
   PrivateRoute,
   Error,
+  AuthWrapper,
 };
