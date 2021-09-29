@@ -21,9 +21,9 @@ Netlify
 ## Overall Functionlity
 
 1. Cart and Wishlist
-  - Add or remove product
-  - Filter products based on brand, color and price
+   - Add or remove product
+   - Filter products based on brand, color and price
 2. Authentication
-  - Login and Sign up
+   - Login and Sign up
 3. Payment
-  - stripe payment
+   - stripe payment
