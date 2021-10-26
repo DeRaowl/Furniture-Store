@@ -9,6 +9,9 @@ Furniture Estore is an ecommerce application built upon React JS. It allows user
 
 https://user-images.githubusercontent.com/26904087/138751720-8fb3108f-e9bf-4b32-b05b-0763fc5d3967.mp4
 
+### Demo credentials
+- email - test@test.com 
+- password - Test@123
 
  ## Tech Stack:
  
