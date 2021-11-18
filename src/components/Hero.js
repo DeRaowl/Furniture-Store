@@ -17,7 +17,7 @@ const Hero = () => {
           We create minimal functional and design-focused furniture solution
           that fits seamlessly into your home
         </p>
-        <Link to="/" className="btn hero-btn">
+        <Link to="/products" className="btn hero-btn">
           Shop Now
         </Link>
       </article>
